@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
+    <title>Impulse Fit</title>
+</head>
+
+<body class="text-gray-800 antialiased">
+    <!-- Navbar -->
+
+    <nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
+        <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+            <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+                <a
+                    class="text-lg font-bold leading-relaxed text-xl inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white">Impulse
+                    <span class="text-orange-500">Fit</span></a><button
+                    class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+                    type="button" onclick="toggleNavbar('example-collapse-navbar')">
+                    <i class="text-white fas fa-bars"></i>
+                </button>
+            </div>
+            <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+                id="example-collapse-navbar">
+                <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+
+                    <li class="flex items-center">
+                        <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-s uppercase font-bold"
+                            href="#about"><i class="lg:text-gray-300 text-gray-500 far text-lg leading-lg mr-2"></i>
+                            About Us</a>
+                    </li>
+                    <li class="flex items-center">
+                        <a class="lg:text-orange-500 lg:hover:text-gray-300 text-orange-500 px-3 py-4 lg:py-2 flex items-center text-s uppercase font-bold"
+                            href="#training"><i class="lg:text-gray-300 text-gray-500 far  text-lg leading-lg mr-2"></i>
+                            training</a>
+                    </li>
+                    <li class="flex items-center">
+                        <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-s uppercase font-bold"
+                            href="#diet"><i class="lg:text-gray-300 text-gray-500 far  text-lg leading-lg mr-2"></i>
+                            Diet</a>
+                    </li>
+                    <li class="flex items-center">
+                        <a class="lg:text-orange-500 lg:hover:text-gray-300 text-orange-500 px-3 py-4 lg:py-2 flex items-center text-s uppercase font-bold"
+                            href="#faq"><i class="lg:text-gray-300 text-gray-500 far  text-lg leading-lg mr-2"></i>
+                            FAQ</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main Area -->
+    <main>
+        <!-- Banner -->
+        <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 95vh">
+            <div class="absolute top-0 w-full h-full bg-top bg-cover" style="
+           background-image: url('https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80');
+         ">
+                <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
+            </div>
+            <div class="container relative mx-auto" data-aos="fade-in">
+                <div class="items-center flex flex-wrap">
+                    <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+                        <div>
+                            <h1 class="text-white font-semibold text-5xl">
+                                Impulse <span class="text-orange-500">Fit</span>
+                            </h1>
+                            <p class="mt-4 text-lg text-gray-300">
+                                The impulse fit is an open platform for all the health enthusiasts, willing to live a
+                                healthy life. This application ensures a proper diet and in workout plan which suitable
+                                for an individual.
+                            </p>
+                            <a href="#about"
+                                class="bg-transparent hover:bg-orange-500 text-orange-500 font-semibold hover:text-white p-4 border border-orange-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer">Know
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+                style="height: 70px; transform: translateZ(0px)">
+                <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg"
+                    preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+                    <polygon points="2560 0 2560 100 0 100"></polygon>
+                </svg>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <section id="about" class="about relative py-20 bg-black text-white">
+            <div class="container mx-auto px-4">
+                <div class="items-center flex flex-wrap">
+                    <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="fade-right">
+                        <img alt="..." class="max-w-full rounded-lg shadow-lg"
+                            src="https://images.unsplash.com/photo-1550345332-09e3ac987658?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" />
+                    </div>
+                    <div class="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="fade-left">
+                        <div class="md:pr-12">
+                            <small class="text-orange-500">About Us</small>
+                            <h3 class="text-4xl uppercase font-bold">We at Impulse Fit</h3>
+                            <p class="mt-4 text-lg leading-relaxed">
+                                The impulse fit is an open platform for all the health enthusiasts, willing to live a
+                                healthy life. This application ensures a proper diet and in workout plan which suitable
+                                for an individual. With the help of :-
+                            </p>
+                            <ul class="list-none mt-6">
+                                <li class="py-2">
+                                    <div class="flex items-center">
+                                        <div>
+                                            <span class="font-semibold inline-block py-3 mr-3 text-orange-500"><i
+                                                    class="fas fa-dumbbell fa-2x"></i></span>
+                                        </div>
+                                        <div>
+                                            <h4 class="text-xl">
+                                                State of the art technology
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="py-2">
+                                    <div class="flex items-center">
+                                        <div>
+                                            <span class="font-semibold inline-block py-3 mr-3 text-orange-500"><i
+                                                    class="fas fa-hard-hat fa-2x"></i></span>
+                                        </div>
+                                        <div>
+                                            <h4 class="text-xl">
+                                                Personalized diet plan
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="py-2">
+                                    <div class="flex items-center">
+                                        <div>
+                                            <span class="font-semibold inline-block py-3 mr-3 text-orange-500"><i
+                                                    class="fas fa-users fa-2x"></i></span>
+                                        </div>
+                                        <div>
+                                            <h4 class="text-xl">AI Trainer</h4>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- APP UI -->
+        <section class="pt-20 pb-48 py-20 bg-black text-white">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-wrap justify-center text-center mb-24">
+                    <div class="w-full lg:w-6/12 px-4">
+                        <h2 class="text-orange-500 font-semibold text-5xl text-center">
+                            Platform<span class="text-white"> Glimpse</span>
+                        </h2>
+                        
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap">
+                    <!-- Card 1 -->
+                    <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
+                        <div class="px-6">
+                            <img alt="..."
+                                src="img1.png"
+                                class="shadow-lg rounded max-w-full mx-auto" style="max-width: 250px" />
+
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
+                        <div class="px-6">
+                            <img alt="..."
+                                src="img2.png"
+                                class="shadow-lg rounded max-w-full mx-auto" style="max-width: 250px" />
+
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
+                        <div class="px-6">
+                            <img alt="..."
+                                src="img3.png"
+                                class="shadow-lg rounded max-w-full mx-auto" style="max-width: 250px" />
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- training -->
+        <section id="training" class="training pt-20 pb-48 py-20 bg-black text-white">
+            <div class="container mx-auto px-4 ">
+                <div class="items-center flex flex-wrap">
+                    <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+                        <img alt="..." class="max-w-full rounded-lg shadow-lg"
+                            src=https://source.unsplash.com/500x700/?workout>
+                    </div>
+                    <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+                        <div class="md:pr-12">
+
+                            <h2 class="text-orange-500 font-semibold text-5xl text-center">
+                                AI <span class="text-white">Training</span>
+                            </h2>
+                            <p class="mt-4 text-lg leading-relaxed text-white text-center">
+                                AI Training System is our method for evaluating participants on an individual level. It
+                                gives us the ability to provide customized solutions based on specific needs. The result
+                                is much more than an exercise program; it is a purpose-driven system. In this system a
+                                participant's all the activities are tracked down by the AI including the diet. Than the
+                                AI system generates an customisable diet and workout plan for the individual which is
+                                suitable for them. The AI keeps a watch on the participant and help them reach their
+                                desired goals
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- diet -->
+        <section id="diet" class=" diet pt-20 pb-48 py-20 bg-black text-white font">
+            <div class="flex flex-wrap items-center mt-32">
+                <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
+
+                    <h2 class="text-orange-500 font-semibold text-5xl text-center">
+                        AI <span class="text-white">Diet</span>
+                    </h2>
+                    <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-white text-center">
+                        The AI diet is a special feature of the platform which takes height, weight, body type and
+                        desired health goal as input from the user and designs a calory efficient or calory deficient
+                        for one's desired goal.
+                        It is customisable for the user accordingly.
+                    </p>
+
+
+                </div>
+                <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+                    <div
+                        class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600">
+                        <img alt="..." src=https://source.unsplash.com/500x500/?diet
+                            class="w-full align-middle rounded-t-lg">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- faq -->
+        <section id="diet" class=" diet pt-20 pb-48 py-20 bg-black text-white font">
+            <div id="faq" class="faq">
+
+                <div class="relative flex flex-col items-center justify-center sm:px-0 px-6 z-20 pb-32">
+                    <div class="md:py-36 py-20">
+                        <h2 class="text-white font-semibold text-5xl text-center">
+                            Frequently <span class="text-orange-500">Asked </span> Question
+                        </h2>
+                    </div>
+                    <div class="lg:w-1/2 md:w-8/12 sm:w-9/12 w-full">
+                        <div class="bg-white shadow rounded p-8">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <h2 class="text-base font-semibold leading-none text-gray-800">Why should I use your
+                                        service?</h2>
+                                </div>
+                                <button data-menu
+                                    class="focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ring-offset-white cursor-pointer">
+                                    <svg role="button" aria-label="close dropdown" class="hidden" width="10" height="6"
+                                        viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 5L5 1L9 5" stroke="#4B5563" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <svg width="10" role="button" aria-label="open dropdown" height="6"
+                                        viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L5 5L9 1" stroke="#4B5563" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <ul class="hidden">
+                                <li>
+                                    <p class="text-base leading-normal text-gray-600 mt-4 lg:w-96">The impulse fit is an
+                                        open platform for all the health enthusiasts, willing to live a healthy life.
+                                        This application ensures a proper diet and in workout plan which suitable for an
+                                        individual.
+                                        This application keeps a check over the following:
+                                        <br> * tracking their sleeping patterns.
+                                        <br> * monitoring and tracking their heart rate.
+                                        <br> * keeping track of the level of oxygen in their blood.
+                                        <br> * GPS tracking during exercise.
+                                        <br> * Measures stress level.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bg-white shadow rounded p-8 mt-8">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <h2 class="text-base font-semibold leading-none text-gray-800">Approach towards idea
+                                        development
+                                    </h2>
+                                </div>
+                                <button data-menu
+                                    class="focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ring-offset-white cursor-pointer">
+                                    <svg role="button" aria-label="close dropdown" class="hidden" width="10" height="6"
+                                        viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 5L5 1L9 5" stroke="#4B5563" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <svg width="10" role="button" aria-label="open dropdown" height="6"
+                                        viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L5 5L9 1" stroke="#4B5563" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <ul class="hidden">
+                                <li>
+                                    <p class="text-base leading-normal text-gray-600 mt-4 lg:w-96">The basic idea behind
+                                        impulse fit is to provide a healthy, cost efficient, and accessible personal
+                                        health assistant for all.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bg-white shadow rounded p-8 mt-8">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <h2 class="text-base font-semibold leading-none text-gray-800">Idea different from
+                                        existing platforms
+                                    </h2>
+                                </div>
+                                <button data-menu
+                                    class="focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ring-offset-white cursor-pointer">
+                                    <svg role="button" aria-label="close dropdown" class="hidden" width="10" height="6"
+                                        viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 5L5 1L9 5" stroke="#4B5563" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <svg width="10" role="button" aria-label="open dropdown" height="6"
+                                        viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L5 5L9 1" stroke="#4B5563" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <ul class="hidden">
+                                <li>
+                                    <p class="text-base leading-normal text-gray-600 mt-4 lg:w-96">Impulse fit is
+                                        different from existing applications as it provides AI based fitness assistance
+                                        which is very handy, whereas on the other hand other platforms are a bit
+                                        difficult as compared to impulse fit. </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bg-white shadow rounded p-8 mt-8">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <h2 class="text-base font-semibold leading-none text-gray-800">Future potential</h2>
+                                </div>
+                                <button data-menu
+                                    class="focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ring-offset-white cursor-pointer">
+                                    <svg role="button" aria-label="close dropdown" class="hidden" width="10" height="6"
+                                        viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 5L5 1L9 5" stroke="#4B5563" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <svg width="10" role="button" aria-label="open dropdown" height="6"
+                                        viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L5 5L9 1" stroke="#4B5563" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <ul class="hidden">
+                                <li>
+                                    <p class="text-base leading-normal text-gray-600 mt-4 lg:w-96">The future potential
+                                        of this project is to connect with the nearby gyms and health centres
+                                        accordingly, so that the benefits of this fitness project can be claimed by each
+                                        and every willing individual. The drawback of not having better knowledge for
+                                        maintaining a healthy lifestyle can be easily overcome by all.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Footer -->
+        <section class=" bg-black text-white">
+            <footer>
+                <div class="flex flex-wrap items-center md:justify-between justify-center">
+                    <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+                        <div class="text-sm text-gray-600 font-semibold py-1">
+                            Copyright © A4
+                        </div>
+                    </div>
+                </div>
+
+            </footer>
+        </section>
+</body>
+<script>
+    function toggleNavbar(collapseID) {
+        document.getElementById(collapseID).classList.toggle("hidden");
+        document.getElementById(collapseID).classList.toggle("block");
+    }
+    let elements = document.querySelectorAll("[data-menu]");
+
+    for (let i = 0; i < elements.length; i++) {
+        let main = elements[i];
+        main.addEventListener("click", function () {
+            let element = main.parentElement.parentElement;
+            let andicators = main.querySelectorAll("svg");
+            let child = element.querySelector("ul");
+            let fontColor = element.querySelector("h2");
+            child.classList.toggle("hidden");
+            if (child.classList[0] !== "hidden") {
+                andicators[0].style.display = "block";
+                andicators[1].style.display = "none";
+                fontColor.style.color = "#3730A3";
+            } else {
+                andicators[0].style.display = "none";
+                andicators[1].style.display = "block";
+                fontColor.style.color = "#1F2937";
+            }
+        });
+    }
+</script>
+
+</html>
